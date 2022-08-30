@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
         }
         
-        PersonAPIManager.requestPerson(query: "lee") { person, errer in
+        PersonAPIManager.requestPerson(query: "won") { person, errer in
             guard let person = person else {
                 return
             }
